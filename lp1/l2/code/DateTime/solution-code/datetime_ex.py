@@ -40,7 +40,7 @@ print()
 #CODE5: Construct an interval and add and subtract it to existing date
 interval = timedelta(10)
 print("interval:", interval)
-d4 = d2 + interval  # <8>
+d4 = d2 + interval
 d5 = d2 - interval
 print("d2 + interval:", d4)
 print("d2 - interval:", d5)

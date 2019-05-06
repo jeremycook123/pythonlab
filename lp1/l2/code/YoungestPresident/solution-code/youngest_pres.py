@@ -30,7 +30,7 @@ def make_date(date_string):
 all_presidents = []
 
 #CODE4: Open data file and read each record
-with open("../DATA/presidents.txt") as PRES:
+with open("./presidents.txt") as PRES:
     for rec in PRES:
         _, last_name, first_name, birthday, _, _, _, inauguration_day, *_ = rec.split(":")
 

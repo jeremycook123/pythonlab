@@ -20,24 +20,3 @@ print()
 #CODE3: Create candidate info2 data
 
 #CODE4: Connect to SQL database and insert records
-with sqlite3.connect("../DATA/presidents.db") as conn:
-    c = conn.cursor()
-
-    insert_stmt = '''
-       INSERT INTO presidents
-    (termnum, lastname, firstname, termstart, termend,
-     birthplace, birthstate, birthdate, deathdate, party)
-         VALUES
-        (?, ?, ?, ?, ?,
-         ?, ?, ?, ?, ?);
-    '''
-
-    try:
-        rows1 = c.execute(insert_stmt, candidate_info1)
-        rows2 = c.execute(insert_stmt, candidate_info2)
-    except Exception as e:
-        print("Error inserting record:", e)
-        conn.rollback()
-    else:
-        print("Record inserted OK.")
-        conn.commit()
