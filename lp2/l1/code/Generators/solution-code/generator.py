@@ -20,9 +20,9 @@ def fibonacci(max):
           a, b = b, a+b
 
 #CODE2: Iterate over the fibonacci generator function
-numbers = 20
+numbers = 50
 for num in fibonacci(numbers):
-    print num
+    print(num)
 
 #CODE3: Use Generator Expressions to discover sum, min, and max of the square roots of a random list of numbers
 import random
