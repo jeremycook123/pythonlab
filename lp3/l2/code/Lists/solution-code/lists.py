@@ -47,13 +47,13 @@ print()
 print("CODE5:")
 for item in list4:
     print(item)
-
 print()
 
 #CODE6: Search in LIST
 print("CODE6:")
 print ("cloud" in list4)
 print ("blah" in list4)
+print()
 
 #CODE7: Retrieve item from LIST
 print("CODE7:")
@@ -61,6 +61,7 @@ item0 = list4[0]
 item1 = list4[1]
 print(f"item0 = {item0}")
 print(f"item1 = {item1}")
+print()
 
 #CODE8: Change mutable LIST
 print("CODE8:")
@@ -68,6 +69,7 @@ list4[0] = "possible!!"
 print(f"list4 = {list4}")
 print(f"data type = {type(list4)}")
 print(f"length = {len(list4)}")
+print()
 
 #CODE9: Append to LIST
 print("CODE9:")
@@ -75,3 +77,4 @@ list4.append("new item")
 print(f"list4 = {list4}")
 print(f"data type = {type(list4)}")
 print(f"length = {len(list4)}")
+print()

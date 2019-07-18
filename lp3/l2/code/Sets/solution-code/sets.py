@@ -47,13 +47,13 @@ print()
 print("CODE5:")
 for item in set4:
     print(item)
-
 print()
 
 #CODE6: Search in SET
 print("CODE6:")
 print ("cloud" in set4)
 print ("blah" in set4)
+print()
 
 #CODE7: Attempt to retrieve item from SET
 print("CODE7:")
@@ -64,6 +64,7 @@ try:
     print(f"item1 = {item1}")
 except:
     print("Sets do not support indexing!!")
+print()
 
 #CODE8: Add new unique item to SET
 print("CODE8:")
@@ -71,6 +72,7 @@ set4.add("devops")
 print(f"set4 = {set4}")
 print(f"data type = {type(set4)}")
 print(f"length = {len(set4)}")
+print()
 
 #CODE9: Add new non-unique item to SET
 print("CODE9:")
@@ -78,6 +80,7 @@ set4.add("devops") # added prev
 print(f"set4 = {set4}")
 print(f"data type = {type(set4)}")
 print(f"length = {len(set4)}")
+print()
 
 #CODE10: Remove item from SET
 print("CODE10:")
@@ -85,3 +88,4 @@ set4.remove("cloud")
 print(f"set4 = {set4}")
 print(f"data type = {type(set4)}")
 print(f"length = {len(set4)}")
+print()

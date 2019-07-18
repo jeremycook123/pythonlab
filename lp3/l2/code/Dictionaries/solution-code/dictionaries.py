@@ -47,13 +47,13 @@ print()
 print("CODE5:")
 for key, value in dict4.items():
      print(f"key={key}, value={value}")
-
 print()
 
 #CODE6: Search key in DICTIONARY
 print("CODE6:")
 print ("name" in dict4)
 print ("cloudacademy" in dict4)
+print()
 
 #CODE7: Retrieve value from DICTIONARY by key
 print("CODE7:")
@@ -61,6 +61,7 @@ item0 = dict4["name"]
 item1 = dict4["color"]
 print(f"item0 = {item0}")
 print(f"item1 = {item1}")
+print()
 
 #CODE8: Change existing value in DICTIONARY
 print("CODE8:")
@@ -69,6 +70,7 @@ dict4["color"] = "blue"
 print(f"dict4 = {dict4}")
 print(f"data type = {type(dict4)}")
 print(f"length = {len(dict4)}")
+print()
 
 #CODE9: Add new key-value pair to DICTIONARY
 print("CODE8:")
@@ -76,6 +78,7 @@ dict4['qwerty'] = 'fast'
 print(f"dict4 = {dict4}")
 print(f"data type = {type(dict4)}")
 print(f"length = {len(dict4)}")
+print()
 
 #CODE10: Pop existing key-value pair from DICTIONARY
 print("CODE10:")
@@ -84,6 +87,7 @@ print(f"test = {test}")
 print(f"dict4 = {dict4}")
 print(f"data type = {type(dict4)}")
 print(f"length = {len(dict4)}")
+print()
 
 #CODE11: Pop non-existing key-value pair from DICTIONARY
 print("CODE11:")
@@ -92,3 +96,4 @@ print(f"test = {test}")
 print(f"dict4 = {dict4}")
 print(f"data type = {type(dict4)}")
 print(f"length = {len(dict4)}")
+print()

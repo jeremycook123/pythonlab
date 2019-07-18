@@ -47,13 +47,13 @@ print()
 print("CODE5:")
 for item in tup4:
     print(item)
-
 print()
 
 #CODE6: Search in TUPLE
 print("CODE6:")
 print ("cloud" in tup4)
 print ("blah" in tup4)
+print()
 
 #CODE7: Retrieve item from TUPLE
 print("CODE7:")
@@ -61,6 +61,7 @@ item0 = tup4[0]
 item1 = tup4[1]
 print(f"item0 = {item0}")
 print(f"item1 = {item1}")
+print()
 
 #CODE8: Attempt to change immutable TUPLE
 print("CODE8:")
@@ -68,3 +69,4 @@ try:
     tup4[0] = "not possible!"
 except:
     print("Tuples are immutable!!")
+print()
