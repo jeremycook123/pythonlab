@@ -18,6 +18,6 @@ num1 = '2019'
 
 #CODE1: Find word/letter in string
 
-#CODE2: Endswith and Startswith format string
+#CODE2: Check string endswith and/or startswith another string
 
 #CODE3: Is string alphanum, alpha, and/or digit

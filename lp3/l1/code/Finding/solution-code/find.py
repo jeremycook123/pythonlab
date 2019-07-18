@@ -24,7 +24,7 @@ print(f"find '{word1}' = {data.find(word1)}")
 print(f"index '{num1}' = {data.index(num1)}")
 print()
 
-#CODE2: Endswith and Startswith format string
+#CODE2: Check string endswith and/or startswith another stringse
 print("CODE2:")
 print(f"endswith = {data.endswith('2019')}")
 print(f"startswith = {data.startswith(letter1)}")
